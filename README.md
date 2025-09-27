@@ -1,16 +1,50 @@
 # flutter_chat
 
-A minimal chat app using the ChatGPT API for interactive Q&A conversations.
+A minimal Flutter-based chat app powered by the ChatGPT API for interactive Q&A conversations. (Android and iOS)
 
-## Getting Started
+## 🚀 Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to clone, initialize, and run the project locally.
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Clone the Repository
+```bash
+git clone https://github.com/poralcode/flutter_chat.git
+cd flutter_chat
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. Install Dependencies
+Make sure you have Flutter installed. Then run:
+```bash
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3. Run the App
+To launch the app on an emulator or connected device:
+```bash
+flutter run
+```
+
+---
+
+## 🛠 Requirements
+
+- Flutter SDK (≥ 3.x)
+- Dart SDK
+- Android Studio or VS Code with Flutter plugin
+- ChatGPT API key (set up in your code or environment)
+
+---
+
+## 📚 Resources
+
+If you're new to Flutter, here are some helpful links:
+
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
+- [Flutter Documentation](https://docs.flutter.dev/)
+
+---
+
+## 💬 About
+
+This app demonstrates a simple integration with OpenAI's ChatGPT API, enabling users to ask questions and receive intelligent responses in a conversational UI.
